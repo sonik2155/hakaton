@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  height: 717px;
+}
+
+@media screen and (max-height: 999px) {
+  .main {
+    height: calc(717px - 10%);
+  }
+}
